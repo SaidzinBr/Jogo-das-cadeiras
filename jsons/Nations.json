@@ -191,5 +191,54 @@
 		"uniqueName": "Guerreiros de fé"
 		"uniques": ["[+70]% [Faith] from City-States", "May choose [2] additional belief(s) of any type when [founding] a religion", "[+1 Faith] [in all cities]"],
 		"cities": ["Curiós", "templo de Deus", "casa do senhor", "fim de mundo", "mosqueiro", "Orla por do Sol"]
-	}
+	},
+	// City-States sorted by cityStateType, name
+		{
+		"name": "Espantas",
+		"adjective": ["Espantas"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Romeu de Castro"]
+	},
+	{
+		"name": "Sábios de Lurdes",
+		"adjective": ["Lurdenses"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"cities": ["Santa Tereza"]
+	},
+		{
+		"name": "Migas suas loucas",
+		"adjective": ["Baianas"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Ouro Verde"]
+	},
+	{
+		"name": "Coleguinhas",
+		"adjective": ["Coleguinhas"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Royal Palm"]
+	},
 		]
