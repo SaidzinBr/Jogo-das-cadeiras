@@ -31,7 +31,7 @@
 	"attackSound": "nonmetalhit"
 },
 	{
-		"name": "Júlio Cesar",
+		"name": "Serpentes",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 11,
@@ -44,7 +44,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Dionatan",
+		"name": "Filhos de Ci",
 		"unitType": "Sword",
 		"uniqueTo": "Casa Menezes",
 		"movement": 2,
@@ -91,5 +91,19 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 10,
 		"attackSound": "horse",
-	}
+	},
+	{
+		"name": "Alcateia",
+		"unitType": "Sword",
+		"uniqueTo": "Casa Dantas",
+		"movement": 1,
+		"strength": 25,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 5,
+		"attackSound": "metalhit"
+	},
 ]
